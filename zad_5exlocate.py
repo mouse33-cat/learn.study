@@ -8,4 +8,4 @@ początkowa_wartość = ask_for_float_value("Podaj początkową wartość lokaty
 percentage = ask_for_float_value("Podaj oprocentowanie lokaty. : ")
 years = ask_for_float_value("Ile lat trwa lokata? : ")
 final_value = zad_5exlocate_import.locate(percentage, years, początkowa_wartość)
-print(f"Twoja lokata po tylu : {years} latach przyniesie zysk {final_value} ")
+print(f"Twoja lokata po tylu : {years} latach przyniesie zysk {final_value: .2f} ")
